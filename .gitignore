@@ -1,3 +1,7 @@
 widgets/node_modules/
 widgets/bundle.js
-widgest/bundle.js.map
+widgets/bundle.js.map
+
+minesweeper/node_modules/
+minesweeper/bundle.js
+minesweeper/bundle.js.map
