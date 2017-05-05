@@ -33,7 +33,6 @@ class Weather extends React.Component {
       if (xml.readyState === XMLHttpRequest.DONE ) {
         if (xml.status === 200) {
           this.setState({ weather: JSON.parse(xml.responseText) });
-          console.log(this.state.weather);
         } else {
           alert('Cannot retrieve weather');
         }

@@ -1,6 +1,7 @@
-section, h1, span {
+section, h1, span, ul, li, p, article {
   border: 0;
   margin: 0;
   padding: 0;
   background: transparent;
+  box-sizing: inherit;
 }

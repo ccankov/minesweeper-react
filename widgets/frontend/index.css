@@ -1,8 +1,9 @@
 section {
-  width: 30%;
+  width: 50%;
   margin: 0 auto;
   background-color: bisque;
   padding: 20px;
+  box-sizing: border-box;
 }
 
 h1 {
@@ -17,4 +18,37 @@ h1 {
 
 .autocomplete {
   background-color: burlywood;
+}
+
+.tabs {
+  padding: 0;
+  background-color: darkkhaki;
+}
+
+.tabs ul{
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+
+.tabs li {
+  border-radius: 5px 5px 0 0;
+  border: 2px solid grey;
+  border-bottom: none;
+  flex: 1;
+}
+
+.tabs li:hover {
+  background-color: ghostwhite;
+}
+
+.selected {
+  font-weight: bold;
+}
+
+
+.tabs article {
+  width: 100%;
+  height: 200px;
+  border: 2px solid grey;
 }
