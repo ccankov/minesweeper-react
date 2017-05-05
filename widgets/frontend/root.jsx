@@ -1,4 +1,6 @@
 import React from 'react';
+import Clock from './clock';
+import Weather from './weather';
 
 class Root extends React.Component {
   constructor() {
@@ -7,7 +9,10 @@ class Root extends React.Component {
 
   render() {
     return (
-      <h1>you made it</h1>
+      <div>
+        <Clock />
+        <Weather />
+      </div>
     );
   }
 }

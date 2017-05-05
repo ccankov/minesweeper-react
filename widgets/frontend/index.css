@@ -1,0 +1,16 @@
+section {
+  width: 30%;
+  margin: 0 auto;
+  background-color: bisque;
+  padding: 20px;
+}
+
+h1 {
+  font-family: 'Ravi Prakash', cursive;
+  display: flex;
+  justify-content: space-between;
+}
+
+.weather {
+  background-color: cornflowerblue;
+}
