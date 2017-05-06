@@ -25,8 +25,17 @@ class Game extends React.Component {
   }
 
   render() {
+    let gameStatus = '';
+    if (this.state.board.lost()) {
+      gameStatus = 'You lose!';
+    } else if (this.state.board.won()) {
+      gameStatus = 'You win!';
+    }
     return (
-      <Board board={this.state.board} updateGame={this.updateGame} />
+      <div>
+        <Board board={this.state.board} updateGame={this.updateGame} />
+        <h1>{gameStatus}</h1>
+      </div>
     );
   }
 }
